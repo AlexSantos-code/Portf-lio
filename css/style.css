@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&#39;); */
 
 
-:root{
+:root {
     --corPrincipal: #22D4FD;
     --corSecundaria: #000;
     --corTerciaria: #F6F6F6;
@@ -10,60 +10,111 @@
     --fonteSecundaria: "Krona One", sans-serif;
 }
 
-*{
-    
+* {
+
     margin: 0;
     padding: 0;
 }
 
-body{
-    
+body {
+
     background-attachment: fixed;
     box-sizing: border-box;
     background-color: var(--corSecundaria);
     color: var(--corTerciaria);
 }
 
-header{
+header {
     background-color: var(--corSecundaria);
 }
-.cabecalho{
+
+.cabecalho {
     padding-top: 43px 0px 0px 362px;
     /* padding-left: 362px; */
     display: flex;
     gap: 129px;
 }
 
-.cabecalho-link{
-     color: var(--corPrincipal);
-     font-family: var(--fontePrincipal);
-     font-size: 24px;
-     font-weight: bold;
-     text-decoration: none;
+.cabecalho-link {
+    color: var(--corPrincipal);
+    font-family: var(--fontePrincipal);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
 
 }
 
-main{
+main {
     display: flex;
     padding: 200px 402px 357px;
     gap: 80px;
     height: 615px;
 }
-.container-texto-titulo{
+
+.container-texto-titulo {
     font-family: var(--fontePrincipal);
     color: var(--corTerciaria);
     padding-bottom: 60px;
     font-size: 36px;
 }
-.container-texto-paragrafo{
+
+.container-texto-paragrafo {
     font-family: var(--fonteSecundaria);
     color: var(--corTerciaria);
     font-size: 24px;
     font-weight: 50;
 }
 
-.container-texto-link{
+.container-texto-link {
     display: flex;
     gap: 20;
 
+    border: 0.5px solid black;
+
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-texto-link-link {
+    display: flex;
+    gap: 20;
+    background: #22D4FD;
+    width: 280px;
+    height: 87.85px;
+    border-radius: 16px;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-style: nome;
+    margin-right: 10px;
+
+}
+
+.textsobre {
+    font-family: var(--fonteSecundaria);
+    color: var(--corTerciaria);
+    font-size: 24px;
+    font-weight: 50;
+    
+}
+
+.container-foto {
+    width: 720px;
+
+}
+img {
+    
+    height: auto;
+
+}
+
+footer {
+    background: #22D4FD;
+    /* width: 1920px; */
+    height: 66px;
+    
 }
